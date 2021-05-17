@@ -1,7 +1,9 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -11,10 +13,31 @@
             <objects>
                 <viewController id="01J-lp-oVM" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="375" verticalCompressionResistancePriority="812" image="main_icon" translatesAutoresizingMaskIntoConstraints="NO" id="wOE-tJ-ppQ">
+                                <rect key="frame" x="149" y="393" width="116" height="49"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="오늘 공기 어때?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QhU-f8-1yL">
+                                <rect key="frame" x="95" y="482" width="224" height="31"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Bcu-3y-fUS"/>
+                        <color key="backgroundColor" red="0.0" green="0.40000000000000002" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Bcu-3y-fUS" firstAttribute="trailing" secondItem="QhU-f8-1yL" secondAttribute="trailing" constant="95" id="AEK-tT-LfT"/>
+                            <constraint firstItem="wOE-tJ-ppQ" firstAttribute="leading" secondItem="Bcu-3y-fUS" secondAttribute="leading" constant="149" id="Ax3-qU-lF7"/>
+                            <constraint firstItem="Bcu-3y-fUS" firstAttribute="bottom" secondItem="wOE-tJ-ppQ" secondAttribute="bottom" constant="420" id="DmT-AL-XT4"/>
+                            <constraint firstItem="QhU-f8-1yL" firstAttribute="top" secondItem="wOE-tJ-ppQ" secondAttribute="bottom" constant="39.899999999999999" id="dbW-aH-5yT"/>
+                            <constraint firstItem="Bcu-3y-fUS" firstAttribute="bottom" secondItem="QhU-f8-1yL" secondAttribute="bottom" constant="349.19999999999999" id="lqc-uR-w6J"/>
+                            <constraint firstItem="QhU-f8-1yL" firstAttribute="leading" secondItem="Bcu-3y-fUS" secondAttribute="leading" constant="95" id="rdt-6S-gnI"/>
+                            <constraint firstItem="wOE-tJ-ppQ" firstAttribute="top" secondItem="Bcu-3y-fUS" secondAttribute="top" constant="349" id="uaB-jT-Bex"/>
+                            <constraint firstItem="Bcu-3y-fUS" firstAttribute="trailing" secondItem="wOE-tJ-ppQ" secondAttribute="trailing" constant="149" id="wti-dC-63w"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -22,4 +45,7 @@
             <point key="canvasLocation" x="53" y="375"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="main_icon" width="231" height="129"/>
+    </resources>
 </document>

@@ -3,27 +3,37 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4377AAB8F8C24FD858C6DD59 /* Pods_TodayAirMVVM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA8C8BB577EE1F6DA855FDFD /* Pods_TodayAirMVVM.framework */; };
+		7200C656253D6646008BCBF0 /* SplashReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7200C655253D6646008BCBF0 /* SplashReactor.swift */; };
+		7200C659253D683A008BCBF0 /* AirInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7200C658253D683A008BCBF0 /* AirInfo.swift */; };
+		7200C65C253D6F5A008BCBF0 /* AirDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7200C65B253D6F5A008BCBF0 /* AirDataModel.swift */; };
+		7200C66B253D995F008BCBF0 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7200C66A253D995F008BCBF0 /* MainViewController.swift */; };
 		725C12AF253D604600B99FBD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725C12AE253D604600B99FBD /* AppDelegate.swift */; };
-		725C12B1253D604600B99FBD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725C12B0253D604600B99FBD /* SceneDelegate.swift */; };
-		725C12B3253D604600B99FBD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725C12B2253D604600B99FBD /* ViewController.swift */; };
-		725C12B6253D604600B99FBD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 725C12B4253D604600B99FBD /* Main.storyboard */; };
+		725C12B3253D604600B99FBD /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725C12B2253D604600B99FBD /* SplashViewController.swift */; };
 		725C12B8253D604600B99FBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 725C12B7253D604600B99FBD /* Assets.xcassets */; };
-		725C12BB253D604600B99FBD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 725C12B9253D604600B99FBD /* LaunchScreen.storyboard */; };
+		725ED429254147C500C94ED9 /* CommonResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725ED428254147C500C94ED9 /* CommonResource.swift */; };
+		725ED42C2541609A00C94ED9 /* MainReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725ED42B2541609A00C94ED9 /* MainReactor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		16887D672FC6A558F4DCE1D6 /* Pods-TodayAirMVVM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TodayAirMVVM.release.xcconfig"; path = "Target Support Files/Pods-TodayAirMVVM/Pods-TodayAirMVVM.release.xcconfig"; sourceTree = "<group>"; };
+		564DD7C4CF70E26358C4C4B1 /* Pods-TodayAirMVVM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TodayAirMVVM.debug.xcconfig"; path = "Target Support Files/Pods-TodayAirMVVM/Pods-TodayAirMVVM.debug.xcconfig"; sourceTree = "<group>"; };
+		7200C655253D6646008BCBF0 /* SplashReactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashReactor.swift; sourceTree = "<group>"; };
+		7200C658253D683A008BCBF0 /* AirInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirInfo.swift; sourceTree = "<group>"; };
+		7200C65B253D6F5A008BCBF0 /* AirDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirDataModel.swift; sourceTree = "<group>"; };
+		7200C66A253D995F008BCBF0 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		725C12AB253D604600B99FBD /* TodayAirMVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodayAirMVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		725C12AE253D604600B99FBD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		725C12B0253D604600B99FBD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		725C12B2253D604600B99FBD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		725C12B5253D604600B99FBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		725C12B2253D604600B99FBD /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 		725C12B7253D604600B99FBD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		725C12BA253D604600B99FBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		725C12BC253D604600B99FBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		725ED428254147C500C94ED9 /* CommonResource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonResource.swift; sourceTree = "<group>"; };
+		725ED42B2541609A00C94ED9 /* MainReactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainReactor.swift; sourceTree = "<group>"; };
+		EA8C8BB577EE1F6DA855FDFD /* Pods_TodayAirMVVM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TodayAirMVVM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +41,55 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4377AAB8F8C24FD858C6DD59 /* Pods_TodayAirMVVM.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		137FF4ADEA0CA27F808C06FA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA8C8BB577EE1F6DA855FDFD /* Pods_TodayAirMVVM.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		70B2227C0902F8666584ACAD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				564DD7C4CF70E26358C4C4B1 /* Pods-TodayAirMVVM.debug.xcconfig */,
+				16887D672FC6A558F4DCE1D6 /* Pods-TodayAirMVVM.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7200C669253D9952008BCBF0 /* main */ = {
+			isa = PBXGroup;
+			children = (
+				7200C66A253D995F008BCBF0 /* MainViewController.swift */,
+				725ED42B2541609A00C94ED9 /* MainReactor.swift */,
+			);
+			path = main;
+			sourceTree = "<group>";
+		};
+		7200C66D253D99C9008BCBF0 /* entities */ = {
+			isa = PBXGroup;
+			children = (
+				7200C658253D683A008BCBF0 /* AirInfo.swift */,
+				725ED428254147C500C94ED9 /* CommonResource.swift */,
+			);
+			path = entities;
+			sourceTree = "<group>";
+		};
 		725C12A2253D604600B99FBD = {
 			isa = PBXGroup;
 			children = (
 				725C12AD253D604600B99FBD /* TodayAirMVVM */,
 				725C12AC253D604600B99FBD /* Products */,
+				70B2227C0902F8666584ACAD /* Pods */,
+				137FF4ADEA0CA27F808C06FA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +104,24 @@
 		725C12AD253D604600B99FBD /* TodayAirMVVM */ = {
 			isa = PBXGroup;
 			children = (
+				7200C66D253D99C9008BCBF0 /* entities */,
+				7200C669253D9952008BCBF0 /* main */,
+				726D50DD253D64B40067AEAA /* splash */,
 				725C12AE253D604600B99FBD /* AppDelegate.swift */,
-				725C12B0253D604600B99FBD /* SceneDelegate.swift */,
-				725C12B2253D604600B99FBD /* ViewController.swift */,
-				725C12B4253D604600B99FBD /* Main.storyboard */,
 				725C12B7253D604600B99FBD /* Assets.xcassets */,
-				725C12B9253D604600B99FBD /* LaunchScreen.storyboard */,
 				725C12BC253D604600B99FBD /* Info.plist */,
 			);
 			path = TodayAirMVVM;
+			sourceTree = "<group>";
+		};
+		726D50DD253D64B40067AEAA /* splash */ = {
+			isa = PBXGroup;
+			children = (
+				725C12B2253D604600B99FBD /* SplashViewController.swift */,
+				7200C655253D6646008BCBF0 /* SplashReactor.swift */,
+				7200C65B253D6F5A008BCBF0 /* AirDataModel.swift */,
+			);
+			path = splash;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +131,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 725C12BF253D604600B99FBD /* Build configuration list for PBXNativeTarget "TodayAirMVVM" */;
 			buildPhases = (
+				690FFDAC743A8155313B9AB1 /* [CP] Check Pods Manifest.lock */,
 				725C12A7253D604600B99FBD /* Sources */,
 				725C12A8253D604600B99FBD /* Frameworks */,
 				725C12A9253D604600B99FBD /* Resources */,
+				E11CA618FF05FE03683426E2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,45 +183,71 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				725C12BB253D604600B99FBD /* LaunchScreen.storyboard in Resources */,
 				725C12B8253D604600B99FBD /* Assets.xcassets in Resources */,
-				725C12B6253D604600B99FBD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		690FFDAC743A8155313B9AB1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TodayAirMVVM-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E11CA618FF05FE03683426E2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TodayAirMVVM/Pods-TodayAirMVVM-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TodayAirMVVM/Pods-TodayAirMVVM-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TodayAirMVVM/Pods-TodayAirMVVM-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		725C12A7253D604600B99FBD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				725C12B3253D604600B99FBD /* ViewController.swift in Sources */,
+				7200C65C253D6F5A008BCBF0 /* AirDataModel.swift in Sources */,
+				725ED42C2541609A00C94ED9 /* MainReactor.swift in Sources */,
+				725C12B3253D604600B99FBD /* SplashViewController.swift in Sources */,
+				7200C656253D6646008BCBF0 /* SplashReactor.swift in Sources */,
+				7200C66B253D995F008BCBF0 /* MainViewController.swift in Sources */,
+				725ED429254147C500C94ED9 /* CommonResource.swift in Sources */,
+				7200C659253D683A008BCBF0 /* AirInfo.swift in Sources */,
 				725C12AF253D604600B99FBD /* AppDelegate.swift in Sources */,
-				725C12B1253D604600B99FBD /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		725C12B4253D604600B99FBD /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				725C12B5253D604600B99FBD /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		725C12B9253D604600B99FBD /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				725C12BA253D604600B99FBD /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		725C12BD253D604600B99FBD /* Debug */ = {
@@ -216,7 +301,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -271,7 +356,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -283,11 +368,14 @@
 		};
 		725C12C0253D604600B99FBD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 564DD7C4CF70E26358C4C4B1 /* Pods-TodayAirMVVM.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LHMNAPQ6N7;
 				INFOPLIST_FILE = TodayAirMVVM/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -301,11 +389,14 @@
 		};
 		725C12C1253D604600B99FBD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16887D672FC6A558F4DCE1D6 /* Pods-TodayAirMVVM.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LHMNAPQ6N7;
 				INFOPLIST_FILE = TodayAirMVVM/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
